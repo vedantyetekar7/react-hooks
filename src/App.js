@@ -1,5 +1,4 @@
 import "./App.css";
-import UseContext from "./useContext/useContext";
 // import UseState from "./useState/1.useState.js";
 // import UseState from "./useState/2.useState.js";
 // import UseReducer from "./useReducer/useReducer";
@@ -7,6 +6,9 @@ import UseContext from "./useContext/useContext";
 // import UseRef from "./useRef/useRef";
 // import UseLayoutEffect from "./useLayoutEffect/useLayoutEffect";
 // import UseImperativeHandle from "./useImperativeHandle/useImperativeHandle";
+// import UseContext from "./useContext/useContext";
+// import UseMemo from "./useMemo/useMemo";
+import UseCallback from "./useCallback/useCallback";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/* <UseRef /> */}
       {/* <UseLayoutEffect /> */}
       {/* <UseImperativeHandle /> */}
-      <UseContext />
+      {/* <UseContext /> */}
+      {/* <UseMemo /> */}
+      <UseCallback />
     </div>
   );
 }

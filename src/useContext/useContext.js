@@ -8,7 +8,7 @@ const UseContext = () => {
   const [userName, setUserName] = useState("");
 
   return (
-    <AppContext.Provider value={(userName, setUserName)}>
+    <AppContext.Provider value={{ userName, setUserName }}>
       <Login />
       <User />
     </AppContext.Provider>

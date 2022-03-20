@@ -6,11 +6,7 @@ const Login = () => {
 
   return (
     <div>
-      <input
-        onChange={(event) => {
-          setUserName(event.target.value);
-        }}
-      />
+      <input onChange={(event) => setUserName(event.target.value)} />
     </div>
   );
 };
